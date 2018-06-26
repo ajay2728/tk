@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel = "stylesheet" href = "foundation.css">
+  <script src = "foundation.js" charset = "utf-8"></script>
+  <title>first website</title>
+</head>
+<body>
+  <div>
+    <header>Website Under Construction</header>
+  </div>
+  <div>
+    <ul>
+      <li><a href = "#">Home</a></li>
+      <li><a href = "https://www.facebook.com" target = "_self">Face book!</a></li>
+      <li><a href = "https://www.twitter.com">Twitter</a></li>
+      <li><a href = "https://www.Amazon.com">Amazon</a></li>
+      <li><a href = "https://www.youtube.com">YOUtube</a></li>
+      <li class = "right"><button type = "button" class = "satya" onclick = "login()">Login here!</button></li>
+      <li class = "right"><button type = "button" class = "satya" onclick = "signup()">Sign up here!</button></li>
+    </ul>
+  </div>
+  <div class = "main1">
+    <div class = "badge">
+      <span>CLOCKY</span>
+    </div>
+    <div class = "clock">
+      <span id = "hours"></span>
+      <span id = "minutes">:</span>
+      <span id = "seconds">:</span>
+    </div>
+  </div>
+    <div class = "login" id = "login">
+      <div>
+        <img src = "user_img.png" alt = "image" id = "image" height = "100px" width = "100px"/>
+      </div><br><br><br>
+        <div class = "user_data">
+          <b style="color:white;">first name</b><br>
+          <input type = "text" name = "username" placeholder = "username" required></input><br>
+          <b style="color:white;">passward</b><br>
+          <input type = "passward" name = "passward" placeholder = "Enter a passward" required></input><br><br>
+        </div>
+      <div>
+        <button class = "its_a_button" type = "submit">log in!</button>
+        <span style = "float:right;word-spacing: 2px"><b style = "color:white;">forgot</b><a href = "#">passward?</a></span>
+      </div><br>
+    </div>
+    <div class = "signup" id = "signup">
+      <div>
+        <img src = "user_img.png" alt = "image" id = "image" height = "100px" width = "100px"/>
+      </div><br><br><br>
+      <div class = "user_data">
+        <b style="color:white;">First name</b><br>
+        <input type = "text" name = "username" placeholder = "Enter first name" required></input><br/>
+        <b style="color:white;">Last name</b><br>
+        <input type = "text" name = "username" placeholder = "Enter last Name" required></input><br/>
+        <b style="color:white;">Select a passward</b><br>
+        <input type = "passward" name = "passward" placeholder = "Enter a passward" required></input><br/>
+        <b style="color:white;">Date Of Birth</b><br>
+        <input type = "date" name = "date of birth" placeholder = "username" required></input><br/>
+        <b style ="color:white;">Email</b>
+        <input type = "email" name = "email" placeholder = "Enter a email"></input>
+        <b style = "color:white;">Contact No: </b>
+        <input type = "number" name = "number" placeholder = "Enter phone number"></input>
+      </div><br/>
+      <div>
+        <button class = "its_a_button" type = "submit">sign up!</button>
+      </div><br>
+  </div>
+</body>
+</html>
