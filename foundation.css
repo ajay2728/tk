@@ -93,7 +93,9 @@ a:hover{ background-color:white;
              height:30px;
              background-color:red;
              border:thin solid transparent;}
-body{background:url("laptop_img.jpg");}
+     body{
+           background-color:black;
+         }
     .satya{
            color:white;
            background-color:transparent;
