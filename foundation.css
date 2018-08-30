@@ -94,6 +94,8 @@ a:hover{ background-color:white;
              background-color:red;
              border:thin solid transparent;}
     body{background:url("laptop_img.jpg");
+         width:100%;
+         height:auto;
         }
     .satya{
            color:white;
