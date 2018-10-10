@@ -18,7 +18,7 @@ document.getElementById("hours").innerHTML =  b;
 document.getElementById("minutes").innerHTML =  ": " + c;
 document.getElementById("seconds").innerHTML =  ": " + d;
 }  
-setInterval(clock , 1);
+setInterval(clock , 1000);
 function signup(){
 document.getElementById("signup").style.display = "block"
 }
