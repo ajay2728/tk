@@ -12,8 +12,6 @@ if (c < 10) {
 if (d < 10){
   d = "0" + d;
 }
-
-
 document.getElementById("hours").innerHTML =  b;
 document.getElementById("minutes").innerHTML =  ": " + c;
 document.getElementById("seconds").innerHTML =  ": " + d;
