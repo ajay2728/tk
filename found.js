@@ -8,6 +8,8 @@ var randomNumber = Math.floor(Math.random()*100) + 1;
   var guessCount = 1;
   var resetButton;
   var resetParas = document.querySelectorAll('.resultParas p');
+  var name = prompt("Enter your name:");
+  var elem = document.getElementById("name").innerHTML = "<b>" +name +"</b>" + "!! " +"Enter Numbers Between 1 and 100.";
   function checkGuess() {
 
     var userGuess = Number(guessField.value);
