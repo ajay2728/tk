@@ -64,7 +64,7 @@ var randomNumber = Math.floor(Math.random()*100) + 1;
 	  guessField.value = '';
 	  guessField.focus();
 
-	  lastResult.style.backgroundColor = 'white';
+	  lastResult.style.backgroundColor = 'transparent';
 
 	  randomNumber = Math.floor(Math.random()) + 1;
   }
