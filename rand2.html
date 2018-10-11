@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <script async src = "found.js"></script>
     <style>
-      html {
+       html {
         font-family: sans-serif;
       }
       body {
@@ -13,19 +13,34 @@
         max-width: 800px;
         min-width: 480px;
         margin: 0 auto;
+        background :linear-gradient(to right , #2193b0 , #6dd5ed);
+        color : white;
+        text-align: center;
       }
       .lastResult {
         color: white;
         padding: 3px;
       }
+      input{
+        height : 25px;
+        width : 50%;
+        maragin-top : 5px;
+      }
+      button{
+          height : 30px;
+          width : 30% ;
+          margin-top : 15px;
+          background :linear-gradient(to right , #bdc3c7 , #2c3e50);
+          color :white;
+      }
+
     </style>
   </head>
 
   <body>
       <h1>Number guessing game</h1>
 
-      <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or less. We'll tell you if your guess was too high or too low.</p>
-
+    <p id = "name">Enter Numbers Between 1 and 100</p>
 <div class="form">
   <label for="guessField">Enter a guess: </label><input type="text" id="guessField" class="guessField">
   <button type = "button" onclick = "checkGuess()" class = "guessSubmit">check Guess</button>
