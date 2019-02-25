@@ -1,72 +1,146 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel = "stylesheet" href = "foundation.css">
-  <script src = "foundation.js" charset = "utf-8"></script>
-  <title>first website</title>
+  <link rel = "stylesheet" href = "found.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name = "viewport" content = "width = device-width intial-scale 1.0">
+  <title>A1</title>
+  <style>
+  @media only screen and (max-width: 768px) {
+    .topnav{
+      display : none;
+    }
+  }
+  </style>
 </head>
 <body>
-  <div>
-    <header>Website Under Construction</header>
-  </div>
-  <div>
-    <ul>
-      <li><a href = "rand2.html">Game</a></li>
-      <li><a href = "https://www.facebook.com" target = "_self">Face book!</a></li>
-      <li><a href = "https://www.twitter.com">Twitter</a></li>
-      <li><a href = "https://www.Amazon.com">Amazon</a></li>
-      <li><a href = "https://www.youtube.com">YOUtube</a></li>
-      <li class = "right"><button type = "button" class = "satya" onclick = "login()">Login here!</button></li>
-      <li class = "right"><button type = "button" class = "satya" onclick = "signup()">Sign up here!</button></li>
-    </ul>
-  </div>
-  <div class = "main1">
-    <div class = "badge">
-      <span>CLOCKY</span>
+    <div class = "hed">
+      <img src = "logo.jpg" alt = "logo" id = "logo" />
+      <h1 style ="color:white;">simple website</h1>
+      <button type = "button" id = "primary" onclick = "myfunction()">login </button>
+      <button type = "button" id = "primary" onclick = "myfunction2()"> signup</button>
     </div>
-    <div class = "clock">
-      <span id = "hours"></span>
-      <span id = "minutes">:</span>
-      <span id = "seconds">:</span>
-    </div>
+  <div class = "topnav">
+    <a href = "#">Game</a>
+    <a href = "#">Digital Clock</a>
+    <a href = "#">Facebook</a>
+    <a href = "#">Youtube</a>
+    <a href = "#">Amazon</a>
+    <div style = "background-color:black;" id = "clock">
+    <span id = "seconds"></span>
+    <span id = "minutes"></span>
+    <span id = "hours"></span>
   </div>
-    <div class = "login" id = "login">
-      <div>
-        <img src = "user_img.png" alt = "image" id = "image" height = "100px" width = "100px"/>
-      </div><br><br><br>
-        <div class = "user_data">
-          <b style="color:white;">first name</b><br>
-          <input type = "text" name = "username" placeholder = "username" required></input><br>
-          <b style="color:white;">passward</b><br>
-          <input type = "passward" name = "passward" placeholder = "Enter a passward" required></input><br><br>
-        </div>
-      <div>
-        <button class = "its_a_button" type = "submit">log in!</button>
-        <span style = "float:right;word-spacing: 2px"><b style = "color:white;">forgot</b><a href = "#">passward?</a></span>
-      </div><br>
+  <div class = "row">
+    <div class = "largecolumn">
+      <div class = "card">
+        <h1>section</h1>
+        <P>this is section</p>
+        <img src = "code.jpg" style = "height:300px;width : 100%;">
+     </div>
+     <div class = "card">
+       <h1>article</h1>
+       <p>This is about article</p>
+       <img src = "dream.jpg" style = "height:400px;width : 100%;">
+     </div>
+   </div>
+   <div class = "smallcolumn">
+      <div class = "card">
+        <h4>About</h4>
+        <p>Abour me</p>
+        <img class = "fakeimg" style = "height:50px;">
+      </div>
+      <div class = "card">
+         <h4>portfolio</h4>
+         <p>portfolio</p>
+         <img class = "fakeimg" style = "height:50px;">
+      </div>
+
+      <div class = "card" id = "social">
+         <h4>get in touch</h4>
+         <p>want to work with me</p>
+         <a href = "#" class = "fa fa-facebook"></a>
+         <a href="#" class="fa fa-twitter"></a>
+         <a href="#" class="fa fa-google"></a>
+         <h1>ajay</h1>
+         <h1>ajay</h1>
+      </div>
     </div>
-    <div class = "signup" id = "signup">
-      <div>
-        <img src = "user_img.png" alt = "image" id = "image" height = "100px" width = "100px"/>
-      </div><br><br><br>
-      <div class = "user_data">
-        <b style="color:white;">First name</b><br>
-        <input type = "text" name = "username" placeholder = "Enter first name" required></input><br/>
-        <b style="color:white;">Last name</b><br>
-        <input type = "text" name = "username" placeholder = "Enter last Name" required></input><br/>
-        <b style="color:white;">Select a passward</b><br>
-        <input type = "passward" name = "passward" placeholder = "Enter a passward" required></input><br/>
-        <b style="color:white;">Date Of Birth</b><br>
-        <input type = "date" name = "date of birth" placeholder = "username" required></input><br/>
-        <b style ="color:white;">Email</b>
-        <input type = "email" name = "email" placeholder = "Enter a email"></input>
-        <b style = "color:white;">Contact No: </b>
-        <input type = "number" name = "number" placeholder = "Enter phone number"></input>
-      </div><br/>
-      <div>
-        <button class = "its_a_button" type = "submit">sign up!</button>
-      </div><br>
+   <div class = "background" id = "id01">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src = "user_img.jpg" alt = "user" id = "logimage">
+        <h4 style = "color : grey; margin : 0;">Get Started</h4>
+        <input type = "text" placeholder="username"  >
+        <input type = "password" placeholder="passward"><br><br>
+        <button type = "button" id = "logbutton">login</button>
+        <br><br>
+        <div style = "float : right;">
+        <span> forgot <span style = "color:red;">password?</span></span>
+      </div>
+        <br><br><br>
   </div>
+  <div class = "background" id = "id2">
+       <span onclick="document.getElementById('id2').style.display='none'" class="close" title="Close Modal">&times;</span>
+       <img src = "user_img.jpg" alt = "user" id = "logimage">
+       <h4 style = "color : grey; margin : 0;">Enter Details</h4>
+       <h6>Choose Username</h6>
+       <input type = "text" placeholder="username">
+       <h6>Email</h6>
+       <input type = "text" placeholder="username">
+       <h6>Mobile no.</h6>
+       <input type = "text" placeholder="username">
+       <h6>Choose password</h6>
+       <input type = "text" placeholder="username">
+       <h6>Re-Enter passward</h6>
+       <input type = "password" placeholder="passward"><br>
+       <button type = "button" id = "logbutton">signup</button>
+       <br><br>
+ </div>
+
+</div>
+<footer>
+  i'am footer
+</footer>
+<script>
+function clock(){
+ var a = new Date();
+ var b = a.getHours();
+ var c = a.getMinutes();
+ var d = a.getSeconds();
+ if(a < 10){
+    a = "0" + a;
+ }
+ if(b < 10){
+   b = "0" + b;
+ }
+ if(c < 10){
+   c = "0" + c;
+ }
+
+ document.getElementById("hours").innerHTML = b + ":";
+ document.getElementById("minutes").innerHTML = c + ":";
+ document.getElementById("seconds").innerHTML = d ;
+ }
+ setInterval(clock , 1000);
+ function myfunction(){
+ document.getElementById('id01').style.display = 'block' ;
+ }
+ function myfunction2(){
+   document.getElementById('id2').style.display = 'block' ;
+ }
+
+ var hid = document.querySelectorAll('.background')
+ var a = document.querySelector('html');
+ a.onclick = myfunction3();
+
+ function myfunction3(){
+   console.log('ja');
+   for(var i = 0  ; i < hid.length ; i++){
+     hid[i].style.display = 'none';
+   }
+ }
+</script>
+
 </body>
+
 </html>
