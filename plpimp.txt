@@ -1,0 +1,88 @@
+1.New form elements
+2.Table(col span)
+3.colgroup
+4.selecters from css
+
+
+Bootstrap
+sizes of lables(md)
+nesting of bootstrap
+container.row.column
+plugins available in bootstrap
+
+from lesson 2.1 greed options
+pixels and all
+number of buttons in bootstraps
+no of forms in bootstrap
+which is default
+
+#usage of bootstap components
+jumbotron
+
+
+Angular
+data Bindings
+ngmodel
+ngfor
+
+typeScript 
+var
+let
+arrowfunctions
+optional and default parameters
+event emitter use
+
+
+servelet
+request dispatcher
+deltion of cookies
+url rewriting
+session management
+
+
+
+jpa and hibernate
+
+how to obtain entity manager
+methods of manager
+when to use query and typedquery
+dynamic query
+colon operator
+
+Spring 5
+which method is used to run the spring boot - run
+@Response body(all body notations)
+where we can use @requstmapping class and method level
+
+
+BDD
+diff between tdd bdd
+annotations
+true and  false about cucumber and selenium
+life cycle hooks of cucumber
+what is th 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
